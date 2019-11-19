@@ -111,7 +111,7 @@ function events(action) {
 }
 
 // Register callback
-MusicControls.subscribe(events);
+MusicControls.subscribe().subscribe(events);
 
 // Start listening for events
 // The plugin will run the events function each time an event is fired
